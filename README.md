@@ -54,6 +54,8 @@ $ cd app
 $ bun install
 ```
 
+## Reproduction
+
 You can now run any `cdk` command such as `bun cdk synth` and it will fail with `Subprocess exited with error null`:
 
 ```bash
