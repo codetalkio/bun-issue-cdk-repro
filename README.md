@@ -1,8 +1,11 @@
 # Bun: CDK Issue Reproduction
 Minimal reproduction of CDK issue in Bun introduced after Bun version 1.0.8. This issue occurs when calling any `cdk` command, e.g. `bun cdk synth`.
 
+❗️ This has been fixed from version `v1.1.20` and onwards.
+
 - Latest known working version: `1.0.8` (`curl -fsSL https://bun.sh/install | bash -s "bun-v1.0.8"`)
 - Tested with latest release as of 6th of Jan, 2024: `1.0.21` (and all version in-between)
+- Fixed in version `v1.1.20` (tested with the canary from [bun#8021](https://github.com/oven-sh/bun/issues/8021#issuecomment-2224010175))
 
 First clone this repository and install dependencies:
 
